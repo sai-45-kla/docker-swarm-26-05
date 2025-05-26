@@ -3,12 +3,12 @@ services:
   app1:
     image: saitejachintakunta/app1:v1
     ports:
-      - "8082:8080"
+      - "82:80"
     deploy:
       replicas: 3
   app2:
     image: saitejachintakunta/app2:v2
     ports:
-      - "8083:8080"
+      - "83:80"
     deploy:
       replicas: 3
